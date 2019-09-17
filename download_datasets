@@ -1,0 +1,8 @@
+#!/bin/bash
+#Downloading Datasets
+#MOVIES_FILE_NAME = 1gmFzS9i_oiUAfz7clOnMJPEURd8UHKri
+#CREDITS_FILE_NAME = 1jTfK0Yh5304NsZkblC-8eSfyq_yImkTK 
+
+wget --no-check-certificate "https://docs.google.com/uc?export=download&id=1gmFzS9i_oiUAfz7clOnMJPEURd8UHKri" -O movies.csv
+
+wget --no-check-certificate "https://docs.google.com/uc?export=download&id=1jTfK0Yh5304NsZkblC-8eSfyq_yImkTK" -O credits.csv
